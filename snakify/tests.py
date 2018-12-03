@@ -18,3 +18,7 @@ class TestSnakify(unittest.TestCase):
         for original, expected in cases.items():
             actual = snakify(original)
             self.assertEqual(actual, expected)
+
+
+if __name__ == '__main__':
+    unittest.main()

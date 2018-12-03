@@ -17,6 +17,6 @@ def snakify(key):
 
     # slugify
     key = key.replace('-', '_')
-    key = slugify(key, ok='_', only_ascii=True)
+    key = slugify(key, separator='_')
 
     return key
